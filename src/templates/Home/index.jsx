@@ -49,8 +49,8 @@ export const Home = () => {
     : posts;
 
   return (
-    <section className='container'>
-      <div className='search-container'>
+    <section className="container">
+      <div className="search-container">
         {!!searchValue && <h1>Search value: {searchValue}</h1>}
         <TextInput searchValue={searchValue} handleChange={handleChange} />
       </div>
@@ -59,8 +59,8 @@ export const Home = () => {
 
       {filteredPosts.length === 0 && <p>Não existem posts</p>}
 
-      <div className='button-container'>
-        {!searchValue && <Button text='Load more posts' onClick={loadMorePosts} disabled={noMorePosts} />}
+      <div className="button-container">
+        {!searchValue && <Button text="Load more posts" onClick={loadMorePosts} disabled={noMorePosts} />}
       </div>
     </section>
   );
