@@ -12,6 +12,9 @@ export const Posts = ({ posts = [] }) => (
   </div>
 );
 
+// a instrução abaixo é semelhante ao parâmetro passado na linha 7 { posts = []},
+// podendo ser passado ou um ou outro.
+// na linha 7 pode ser mantido da seguinte forma { posts}.
 Posts.defaultProps = {
   posts: [],
 };

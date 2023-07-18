@@ -1,24 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1689602251857" clover="3.2.0">
-  <project timestamp="1689602251857" name="All files">
-    <metrics statements="7" coveredstatements="7" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="2" elements="10" coveredelements="9" complexity="0" loc="7" ncloc="7" packages="2" files="2" classes="2"/>
-    <package name="Button">
+<coverage generated="1689689871156" clover="3.2.0">
+  <project timestamp="1689689871156" name="All files">
+    <metrics statements="53" coveredstatements="46" conditionals="12" coveredconditionals="10" methods="13" coveredmethods="12" elements="78" coveredelements="68" complexity="0" loc="53" ncloc="53" packages="7" files="8" classes="8"/>
+    <package name="src">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.js" path="/Dados/Projetos/curso-reactjs-nextjs/src/index.js">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Button">
       <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="index.jsx" path="/Dados/Projetos/curso-reactjs-nextjs/src/components/Button/index.jsx">
         <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="1" type="cond" truecount="0" falsecount="1"/>
-        <line num="6" count="5" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
+        <line num="5" count="2" type="cond" truecount="0" falsecount="1"/>
+        <line num="6" count="12" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
       </file>
     </package>
-    <package name="TextInput">
+    <package name="src.components.PostCard">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.jsx" path="/Dados/Projetos/curso-reactjs-nextjs/src/components/PostCard/index.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="36" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+      </file>
+      <file name="mock.js" path="/Dados/Projetos/curso-reactjs-nextjs/src/components/PostCard/mock.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Posts">
+      <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="index.jsx" path="/Dados/Projetos/curso-reactjs-nextjs/src/components/Posts/index.jsx">
+        <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="7" count="2" type="cond" truecount="0" falsecount="1"/>
+        <line num="8" count="13" type="stmt"/>
+        <line num="10" count="34" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.TextInput">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="index.jsx" path="/Dados/Projetos/curso-reactjs-nextjs/src/components/TextInput/index.jsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="1" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="35" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.templates.Home">
+      <metrics statements="26" coveredstatements="21" conditionals="10" coveredconditionals="10" methods="6" coveredmethods="5"/>
+      <file name="index.jsx" path="/Dados/Projetos/curso-reactjs-nextjs/src/templates/Home/index.jsx">
+        <metrics statements="26" coveredstatements="21" conditionals="10" coveredconditionals="10" methods="6" coveredmethods="5"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="33" type="stmt"/>
+        <line num="12" count="32" type="stmt"/>
+        <line num="13" count="32" type="stmt"/>
+        <line num="14" count="32" type="stmt"/>
+        <line num="15" count="32" type="stmt"/>
+        <line num="17" count="32" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="24" count="32" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="29" count="32" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="39" count="32" type="stmt"/>
+        <line num="40" count="26" type="stmt"/>
+        <line num="41" count="26" type="stmt"/>
+        <line num="44" count="32" type="stmt"/>
+        <line num="45" count="32" type="cond" truecount="2" falsecount="0"/>
+        <line num="47" count="75" type="stmt"/>
+        <line num="51" count="32" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.utils">
+      <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="load-posts.js" path="/Dados/Projetos/curso-reactjs-nextjs/src/utils/load-posts.js">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
         <line num="5" count="3" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="9" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
       </file>
     </package>
   </project>
