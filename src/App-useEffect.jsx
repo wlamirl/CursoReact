@@ -1,6 +1,8 @@
 import './App.css';
 import { useState, useEffect } from 'react';
 
+/* Demonstrando a utilização do useEffect */
+
 const eventFn = () => {
   console.log('h1 clicado');
 };
@@ -30,7 +32,7 @@ function App() {
   }, [counter, counter2]);
 
   return (
-    <div className="App">
+    <div className='App'>
       <p>Teste 3</p>
       <h1>
         C1: {counter} C2: {counter2}{' '}
